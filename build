@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DIR=$(dirname $0)
+
+mkdir -p $DIR/dist
+echo "Build $PEON_BUILD_ID at $PEON_BUILD_DATE" > $DIR/dist/index.html
+

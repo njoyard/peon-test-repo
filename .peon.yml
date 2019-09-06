@@ -1,0 +1,5 @@
+output: dist
+destinations:
+  - name: local
+commands:
+  - ./build
